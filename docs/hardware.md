@@ -73,29 +73,27 @@ Split onto a second board only when the jumper nest gets hard to read.
 
 As-built through Phase 9. Match every connection by **label**.
 
-```
-ESP32-S3          SHT40          BMP390              ST7789
---------          -----          ------              ------
-3V3        -----> VCC/VIN/VN --> VCC/VIN             VDD, (BL)
-GND        -----> GND     -----> GND                 GND
-GPIO8      -----> SDA     -----> SDI (I2C data)
-GPIO18     -----> SCL     -----> SCK (I2C clock)
-GPIO11     ---------------------------------------> SDA (MOSI)
-GPIO12     ---------------------------------------> SCK (SPI clock; silk may say SCL)
-GPIO10     ---------------------------------------> CS
-GPIO9      ---------------------------------------> DC
-GPIO7      ---------------------------------------> RES/RST
-3V3        ---------------------------------------> BL (Phase 2)
-3V3        ---------------------------------------> SD 3V3
-GPIO13     ---------------------------------------> SD CS
-GPIO11     ---------------------------------------> SD MOSI  (shared with TFT)
-GPIO12     ---------------------------------------> SD CLK   (shared with TFT SCK)
-GPIO14     ---------------------------------------> SD MISO
-GND        ---------------------------------------> SD GND
-GPIO5      ---------------------------------------> tact (other leg GND)
-GPIO4      ---------------------------------------> green LED (+R) -> GND
-GPIO6      ---------------------------------------> red LED (+R) -> GND
-```
+    ESP32-S3          SHT40          BMP390              ST7789
+    --------          -----          ------              ------
+    3V3        -----> VCC/VIN/VN --> VCC/VIN             VDD, (BL)
+    GND        -----> GND     -----> GND                 GND
+    GPIO8      -----> SDA     -----> SDI (I2C data)
+    GPIO18     -----> SCL     -----> SCK (I2C clock)
+    GPIO11     ---------------------------------------> SDA (MOSI)
+    GPIO12     ---------------------------------------> SCK (SPI clock; silk may say SCL)
+    GPIO10     ---------------------------------------> CS
+    GPIO9      ---------------------------------------> DC
+    GPIO7      ---------------------------------------> RES/RST
+    3V3        ---------------------------------------> BL (Phase 2)
+    3V3        ---------------------------------------> SD 3V3
+    GPIO13     ---------------------------------------> SD CS
+    GPIO11     ---------------------------------------> SD MOSI  (shared with TFT)
+    GPIO12     ---------------------------------------> SD CLK   (shared with TFT SCK)
+    GPIO14     ---------------------------------------> SD MISO
+    GND        ---------------------------------------> SD GND
+    GPIO5      ---------------------------------------> tact (other leg GND)
+    GPIO4      ---------------------------------------> green LED (+R) -> GND
+    GPIO6      ---------------------------------------> red LED (+R) -> GND
 
 **Sensors (I2C).** BMP390: leave **CS** / **SDO** open for I2C; the data pin silk may say **SDI** or **SDA**.
 
