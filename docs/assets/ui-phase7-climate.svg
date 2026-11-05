@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520" height="560" role="img" aria-label="Phase 7 - Climate UI mock on ST7789">
+<rect width="520" height="560" fill="#f5f5f2"/>
+<text x="40" y="48" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#1c1e20">Phase 7 - Climate UI</text>
+<text x="40" y="74" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6e7376">ST7789 240x320 · ~1 Hz</text>
+
+<rect x="110" y="100" width="300" height="400" rx="16" fill="#2b2d2f"/>
+<rect x="130" y="120" width="260" height="360" rx="4" fill="#000000"/>
+
+<text x="150" y="152" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Climate</text>
+<line x1="146" y1="168" x2="374" y2="168" stroke="#6e7376" stroke-width="2"/>
+
+<text x="150" y="198" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#9aa0a3">TEMPERATURE</text>
+<text x="150" y="236" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#fd8c20">25.2 C</text>
+
+<text x="150" y="286" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#9aa0a3">HUMIDITY</text>
+<text x="150" y="324" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#00d4d4">82.7 %</text>
+
+<text x="150" y="374" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#9aa0a3">PRESSURE</text>
+<text x="150" y="412" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#2ecc71">1014.2 hPa</text>
+</svg>

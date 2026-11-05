@@ -1,0 +1,85 @@
+/* Wiring / board photos: readable width, soft frame. */
+.md-typeset img[src*="assets/"] {
+  display: block;
+  width: 100%;
+  max-width: 56rem;
+  margin: 1rem 0 0.35rem;
+  border: 1px solid var(--patina-border, #ccc);
+  border-radius: 6px;
+}
+
+/* Italic line under a photo (PICAXE-style caption) */
+.md-typeset p:has(> em:only-child) {
+  margin-top: 0;
+  margin-bottom: 1.35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}
+
+/* Side-by-side pair when two asset images sit back-to-back */
+.md-typeset p:has(> img[src*="assets/"] + img[src*="assets/"]) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.md-typeset p:has(> img[src*="assets/"] + img[src*="assets/"]) img {
+  margin: 0;
+  max-width: none;
+}
+
+/*
+ * Command + result: one outer frame.
+ * Command band darker; result lighter under a hairline.
+ */
+.md-typeset .run {
+  margin: 1.15rem 0 1.45rem;
+  border: 1px solid var(--patina-border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--patina-surface);
+}
+
+.md-typeset .run > .highlight {
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: var(--md-code-bg-color) !important;
+}
+
+.md-typeset .run > .highlight + .highlight {
+  border-top: 1px solid var(--patina-border) !important;
+  background: var(--patina-surface) !important;
+}
+
+.md-typeset .run > .highlight > pre {
+  margin: 0 !important;
+  padding: 0.85rem 1rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.md-typeset .run > .no-copy.highlight,
+.md-typeset .run > .highlight + .highlight {
+  border: 0 !important;
+  border-top: 1px solid var(--patina-border) !important;
+  border-radius: 0 !important;
+}
+
+.md-typeset .run > .highlight + .highlight .md-code__button,
+.md-typeset .run > .highlight + .highlight .md-clipboard {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* ASCII / pre diagrams */
+.md-typeset pre.diagram {
+  font-size: 0.78rem;
+  line-height: 1.25;
+}

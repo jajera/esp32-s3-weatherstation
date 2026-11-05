@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 610" width="940" height="610" role="img" aria-label="Phase 6 — TFT SPI">
+<rect width="940" height="610" fill="#f5f5f2"/>
+<text x="48" y="52" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#1c1e20">Phase 6 — TFT SPI</text>
+<text x="50" y="82" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#6e7376">Five SPI wires. BL already on 3V3.</text>
+<rect x="50" y="108" width="26" height="6" rx="3" fill="#e67e22"/>
+<text x="82" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">SCK</text>
+<rect x="130" y="108" width="26" height="6" rx="3" fill="#8e44ad"/>
+<text x="162" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">MOSI</text>
+<rect x="218" y="108" width="26" height="6" rx="3" fill="#16a085"/>
+<text x="250" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">CS</text>
+<rect x="290" y="108" width="26" height="6" rx="3" fill="#d81b60"/>
+<text x="322" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">DC</text>
+<rect x="362" y="108" width="26" height="6" rx="3" fill="#f1c40f"/>
+<text x="394" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">RES</text>
+<path d="M 300 220.0 C 470.0 220.0, 470.0 340.0, 640 340.0" fill="none" stroke="#e67e22" stroke-width="4"/>
+<circle cx="300" cy="220.0" r="5" fill="#e67e22"/>
+<circle cx="640" cy="340.0" r="5" fill="#e67e22"/>
+<path d="M 300 260.0 C 470.0 260.0, 470.0 380.0, 640 380.0" fill="none" stroke="#8e44ad" stroke-width="4"/>
+<circle cx="300" cy="260.0" r="5" fill="#8e44ad"/>
+<circle cx="640" cy="380.0" r="5" fill="#8e44ad"/>
+<path d="M 300 300.0 C 470.0 300.0, 470.0 500.0, 640 500.0" fill="none" stroke="#16a085" stroke-width="4"/>
+<circle cx="300" cy="300.0" r="5" fill="#16a085"/>
+<circle cx="640" cy="500.0" r="5" fill="#16a085"/>
+<path d="M 300 340.0 C 470.0 340.0, 470.0 460.0, 640 460.0" fill="none" stroke="#d81b60" stroke-width="4"/>
+<circle cx="300" cy="340.0" r="5" fill="#d81b60"/>
+<circle cx="640" cy="460.0" r="5" fill="#d81b60"/>
+<path d="M 300 380.0 C 470.0 380.0, 470.0 420.0, 640 420.0" fill="none" stroke="#f1c40f" stroke-width="4"/>
+<circle cx="300" cy="380.0" r="5" fill="#f1c40f"/>
+<circle cx="640" cy="420.0" r="5" fill="#f1c40f"/>
+<rect x="74" y="155" width="230" height="250" rx="12" fill="#e1e1dd"/><rect x="70" y="150" width="230" height="250" rx="12" fill="#ffffff" stroke="#4a6078" stroke-width="3"/><rect x="70" y="150" width="230" height="36" rx="12" fill="#4a6078"/><rect x="70" y="170" width="230" height="16" fill="#4a6078"/><text x="185.0" y="175" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff">ESP32-S3 (N16R8)</text><text x="185.0" y="225.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO12</text><text x="185.0" y="265.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO11</text><text x="185.0" y="305.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO10</text><text x="185.0" y="345.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO9</text><text x="185.0" y="385.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO7</text>
+<rect x="644" y="155" width="230" height="370" rx="12" fill="#e1e1dd"/><rect x="640" y="150" width="230" height="370" rx="12" fill="#ffffff" stroke="#e67e22" stroke-width="3"/><rect x="640" y="150" width="230" height="36" rx="12" fill="#e67e22"/><rect x="640" y="170" width="230" height="16" fill="#e67e22"/><text x="755.0" y="175" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff">ST7789 (TFT)</text><text x="755.0" y="225.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#b9bdbf">VDD</text><text x="755.0" y="265.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#b9bdbf">BL</text><text x="755.0" y="305.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#b9bdbf">GND</text><text x="755.0" y="345.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SCK</text><text x="755.0" y="385.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SDA</text><text x="755.0" y="425.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">RES</text><text x="755.0" y="465.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">DC</text><text x="755.0" y="505.0" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">CS</text>
+</svg>
