@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" role="img" aria-label="Phase 8 - microSD SPI">
+<rect width="980" height="520" fill="#f5f5f2"/>
+<text x="48" y="52" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#1c1e20">Phase 8 - microSD SPI</text>
+<text x="50" y="82" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#6e7376">Silk: 3V3 · CS · MOSI · CLK · MISO · GND · share CLK/MOSI with TFT</text>
+<rect x="50" y="108" width="26" height="6" rx="3" fill="#c0392b"/>
+<text x="82" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">3V3</text>
+<rect x="130" y="108" width="26" height="6" rx="3" fill="#27ae60"/>
+<text x="162" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">CS</text>
+<rect x="210" y="108" width="26" height="6" rx="3" fill="#8e44ad"/>
+<text x="242" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">MOSI</text>
+<rect x="310" y="108" width="26" height="6" rx="3" fill="#e67e22"/>
+<text x="342" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">CLK</text>
+<rect x="400" y="108" width="26" height="6" rx="3" fill="#2980b9"/>
+<text x="432" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">MISO</text>
+<rect x="500" y="108" width="26" height="6" rx="3" fill="#2b2d2f"/>
+<text x="532" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">GND</text>
+
+<path d="M 300 220 C 470 220, 470 200, 640 200" fill="none" stroke="#c0392b" stroke-width="4"/>
+<circle cx="300" cy="220" r="5" fill="#c0392b"/>
+<circle cx="640" cy="200" r="5" fill="#c0392b"/>
+<path d="M 300 260 C 470 260, 470 240, 640 240" fill="none" stroke="#27ae60" stroke-width="4"/>
+<circle cx="300" cy="260" r="5" fill="#27ae60"/>
+<circle cx="640" cy="240" r="5" fill="#27ae60"/>
+<path d="M 300 300 C 470 300, 470 280, 640 280" fill="none" stroke="#8e44ad" stroke-width="4"/>
+<circle cx="300" cy="300" r="5" fill="#8e44ad"/>
+<circle cx="640" cy="280" r="5" fill="#8e44ad"/>
+<path d="M 300 340 C 470 340, 470 320, 640 320" fill="none" stroke="#e67e22" stroke-width="4"/>
+<circle cx="300" cy="340" r="5" fill="#e67e22"/>
+<circle cx="640" cy="320" r="5" fill="#e67e22"/>
+<path d="M 300 380 C 470 380, 470 360, 640 360" fill="none" stroke="#2980b9" stroke-width="4"/>
+<circle cx="300" cy="380" r="5" fill="#2980b9"/>
+<circle cx="640" cy="360" r="5" fill="#2980b9"/>
+<path d="M 300 420 C 470 420, 470 400, 640 400" fill="none" stroke="#2b2d2f" stroke-width="4"/>
+<circle cx="300" cy="420" r="5" fill="#2b2d2f"/>
+<circle cx="640" cy="400" r="5" fill="#2b2d2f"/>
+
+<rect x="74" y="155" width="230" height="300" rx="12" fill="#e1e1dd"/>
+<rect x="70" y="150" width="230" height="300" rx="12" fill="#ffffff" stroke="#4a6078" stroke-width="3"/>
+<rect x="70" y="150" width="230" height="36" rx="12" fill="#4a6078"/>
+<rect x="70" y="170" width="230" height="16" fill="#4a6078"/>
+<text x="185" y="175" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff">ESP32-S3 (N16R8)</text>
+<text x="185" y="225" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">3V3</text>
+<text x="185" y="265" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO13</text>
+<text x="185" y="305" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO11</text>
+<text x="185" y="345" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO12</text>
+<text x="185" y="385" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO14</text>
+<text x="185" y="425" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GND</text>
+
+<rect x="644" y="155" width="260" height="300" rx="12" fill="#e1e1dd"/>
+<rect x="640" y="150" width="260" height="300" rx="12" fill="#ffffff" stroke="#27ae60" stroke-width="3"/>
+<rect x="640" y="150" width="260" height="36" rx="12" fill="#27ae60"/>
+<rect x="640" y="170" width="260" height="16" fill="#27ae60"/>
+<text x="770" y="175" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff">TF reader (6-pin)</text>
+<text x="770" y="225" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">3V3</text>
+<text x="770" y="265" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">CS</text>
+<text x="770" y="305" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">MOSI</text>
+<text x="770" y="345" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">CLK</text>
+<text x="770" y="385" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">MISO</text>
+<text x="770" y="425" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GND</text>
+</svg>

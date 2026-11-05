@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 500" width="980" height="500" role="img" aria-label="Phase 9 - view button and status LEDs">
+<rect width="980" height="500" fill="#f5f5f2"/>
+<text x="48" y="52" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#1c1e20">Phase 9 - view button + LEDs</text>
+<text x="50" y="82" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#6e7376">Tact cycles views · green = SD OK · red = fault</text>
+<rect x="50" y="108" width="26" height="6" rx="3" fill="#3498db"/>
+<text x="82" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">BTN</text>
+<rect x="130" y="108" width="26" height="6" rx="3" fill="#27ae60"/>
+<text x="162" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">LED OK</text>
+<rect x="240" y="108" width="26" height="6" rx="3" fill="#c0392b"/>
+<text x="272" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">LED FAULT</text>
+<rect x="380" y="108" width="26" height="6" rx="3" fill="#2b2d2f"/>
+<text x="412" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">GND</text>
+
+<path d="M 300 220 C 420 220, 420 220, 540 220" fill="none" stroke="#3498db" stroke-width="4"/>
+<circle cx="300" cy="220" r="5" fill="#3498db"/>
+<circle cx="540" cy="220" r="5" fill="#3498db"/>
+<path d="M 300 260 C 420 260, 420 300, 540 300" fill="none" stroke="#27ae60" stroke-width="4"/>
+<circle cx="300" cy="260" r="5" fill="#27ae60"/>
+<circle cx="540" cy="300" r="5" fill="#27ae60"/>
+<path d="M 300 300 C 420 300, 420 380, 540 380" fill="none" stroke="#c0392b" stroke-width="4"/>
+<circle cx="300" cy="300" r="5" fill="#c0392b"/>
+<circle cx="540" cy="380" r="5" fill="#c0392b"/>
+<path d="M 300 340 C 420 340, 420 260, 540 260" fill="none" stroke="#2b2d2f" stroke-width="4"/>
+<circle cx="300" cy="340" r="5" fill="#2b2d2f"/>
+<circle cx="540" cy="260" r="5" fill="#2b2d2f"/>
+<path d="M 300 340 C 420 340, 420 340, 540 340" fill="none" stroke="#2b2d2f" stroke-width="4"/>
+<circle cx="540" cy="340" r="5" fill="#2b2d2f"/>
+<path d="M 300 340 C 420 340, 420 420, 540 420" fill="none" stroke="#2b2d2f" stroke-width="4"/>
+<circle cx="540" cy="420" r="5" fill="#2b2d2f"/>
+
+<rect x="74" y="155" width="230" height="230" rx="12" fill="#e1e1dd"/>
+<rect x="70" y="150" width="230" height="230" rx="12" fill="#ffffff" stroke="#4a6078" stroke-width="3"/>
+<rect x="70" y="150" width="230" height="36" rx="12" fill="#4a6078"/>
+<rect x="70" y="170" width="230" height="16" fill="#4a6078"/>
+<text x="185" y="175" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff">ESP32-S3 (N16R8)</text>
+<text x="185" y="225" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO5</text>
+<text x="185" y="265" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO4</text>
+<text x="185" y="305" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO6</text>
+<text x="185" y="345" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GND</text>
+
+<rect x="544" y="175" width="200" height="100" rx="12" fill="#e1e1dd"/>
+<rect x="540" y="170" width="200" height="100" rx="12" fill="#ffffff" stroke="#3498db" stroke-width="3"/>
+<rect x="540" y="170" width="200" height="32" rx="12" fill="#3498db"/>
+<rect x="540" y="186" width="200" height="16" fill="#3498db"/>
+<text x="640" y="192" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#ffffff">TACT</text>
+<text x="640" y="230" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1c1e20">leg A</text>
+<text x="640" y="255" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1c1e20">leg B (GND)</text>
+
+<rect x="544" y="295" width="200" height="70" rx="12" fill="#ffffff" stroke="#27ae60" stroke-width="3"/>
+<text x="640" y="325" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1c1e20">GREEN LED + R</text>
+<text x="640" y="348" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6e7376">anode GPIO4</text>
+
+<rect x="544" y="385" width="200" height="70" rx="12" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+<text x="640" y="415" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1c1e20">RED LED + R</text>
+<text x="640" y="438" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6e7376">anode GPIO6</text>
+</svg>
